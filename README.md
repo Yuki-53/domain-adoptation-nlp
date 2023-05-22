@@ -42,21 +42,19 @@ data
 For testing, we used the [imdb dataset](http://ai.stanford.edu/~amaas/data/sentiment/)
 
 ## Model
-[Base model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) is a fine-tune checkpoint of [DistilBERT](https://arxiv.org/abs/1910.01108), fine-tuned on SST-2. 
-Weights of the domain adapted model can be found at the [link](https://drive.google.com/file/d/1wslRSQZ3djIylmB_8vFJNsi6wijnYRfN/view?usp=share_link).
+[Base model](https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english) is a fine-tune checkpoint of [DistilBERT](https://arxiv.org/abs/1910.01108), fine-tuned on SST-2.
+Weights of the domain adapted model can be found at the [link](https://drive.google.com/file/d/1wslRSQZ3djIylmB_8vFJNsi6wijnYRfN/view?usp=share_link).  
 You can see more details in the [notebook](domain-adoptation.ipynb).
 
 ## Results
-The results showed that the domain adapted model is better at classifying specific reviews after finetuning than the model without domain adaptation. The difference in accuracy is visible even with not the most careful selection of hyperparameters.
-
-Accuracy:
-With domain adoptation - 82% 
-Without domain adoptation - 78%
+The results showed that the domain adapted model is better at classifying specific reviews after finetuning than the model without domain adaptation. The difference in accuracy is visible even with not the most careful selection of hyperparameters.  
+Accuracy:  
+With domain adoptation - 82%  
+Without domain adoptation - 78%  
 
 You can read more details in the work [report](report.pdf).
 
 
 ## Team
-Vsevolod Vlasov - @sesevasa64
-
+Vsevolod Vlasov - @sesevasa64  
 Yuriy Kim - @Yuki-53
